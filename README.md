@@ -1,5 +1,5 @@
 # my_extensions
-List of unloaded extensions to reduce my bad habits and keep productivity.
+List of unloaded extensions to reduce amount of my bad habits and keep productivity.
 ## vk_feed_remover
 Removes all content from vk feed page, including stories, posts etc. It removes "Video" tab in mobile version as well.
 #### Work example
