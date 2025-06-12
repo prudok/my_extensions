@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Yandex eats & delivery club remover",
+    "description": "Removes Yandex Eats and Delivery Club sites from opening",
+    "version": "1.0",
+    "author": "prudok",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://eda.yandex.ru/*",
+                "*://eats.yandex.com/*",
+                "*://market-delivery.yandex.ru/*"
+            ],
+            "js": [
+                "sites_remover.js"
+            ]
+        }
+    ]
+}

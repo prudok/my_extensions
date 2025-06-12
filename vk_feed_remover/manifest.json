@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Vk feed remover",
+    "description": "Removes the feed from vk.com",
+    "version": "1.0",
+    "author": "prudok",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.vk.com/*"
+            ],
+            "js": [
+                "vk_feed_remover.js"
+            ]
+        }
+    ]
+}
